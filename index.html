@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080808" />
+  <meta name="description" content="HESH VISUALS — Video editing, cinematic visuals, and creative content." />
+  <title>HESH VISUALS — Video Editor & Visual Creator</title>
+  <link rel="icon" type="image/jpeg" href="assets/logo-he.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="site-loader" id="siteLoader" role="status" aria-live="polite" aria-label="Loading Hesh Visuals">
+    <div class="site-loader-content">
+      <p class="site-loader-brand">HESH<span> VISUALS</span><i>.</i></p>
+      <div class="site-loader-line" aria-hidden="true"></div>
+      <p class="site-loader-label">LOADING SELECTED WORK</p>
+    </div>
+  </div>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark brand-lockup" href="#home" aria-label="Hesh Visuals home">
+      <img class="brand-logo" src="assets/logo-he.jpg" alt="HESH VISUALS logo" />
+      <span class="wordmark-text">HESH<span> VISUALS</span><i>.</i></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#work">WORK <span>01</span></a>
+      <a href="#about">ABOUT <span>02</span></a>
+      <a href="#contact">CONTACT <span>03</span></a>
+    </nav>
+    <a class="header-cta" href="#contact">LET'S TALK <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-pad" id="home">
+      <div class="hero-topline"><span><b class="status-dot"></b> AVAILABLE FOR SELECT PROJECTS</span><span>INDEPENDENT
+          CREATIVE / SRI LANKA</span></div>
+      <div class="hero-content">
+        <p class="eyebrow reveal">VIDEO EDITOR &amp; VISUAL CREATOR</p>
+        <h1 class="reveal">MADE TO<br><span>MAKE YOU</span><br><em>LOOK.</em></h1>
+        <div class="hero-bottom reveal">
+          <p>Crafting cinematic edits, bold visuals, and digital stories that make brands impossible to ignore.</p>
+          <a class="round-link" href="#work" aria-label="Explore selected work">↓</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Cinematic visual artwork">
+        <img src="assets/hero/hero-visual.png" alt="Cinematic visual artwork" class="hero-image" />
+        <div class="art-glow"></div>
+        <div class="art-ring ring-one"></div>
+        <div class="art-ring ring-two"></div>
+        <div class="art-cross cross-one"></div>
+        <div class="art-cross cross-two"></div>
+        <span class="art-label label-top">VISUAL STUDY / 001</span>
+        <span class="art-label label-bottom">FRAME YOUR WORLD</span>
+      </div>
+      <div class="hero-foot"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 — 04</span></div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">THE SELECTS</p>
+          <h2>Selected <span>work.</span></h2>
+        </div>
+        <p class="section-note">A collection of visual experiments, edits, and creative projects.</p>
+      </div>
+      <div class="filter-row reveal" role="group" aria-label="Filter projects">
+        <button class="filter-btn active" data-filter="all">ALL WORK <span>19</span></button>
+        <button class="filter-btn" data-filter="video">VIDEO EDITING <span>05</span></button>
+        <button class="filter-btn" data-filter="design">DESIGN <span>14</span></button>
+        <button class="filter-btn" data-filter="motion">MOTION</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-large reveal" data-category="video">
+          <button class="project-visual video-thumb visual-one" type="button" data-video="assets/video-01.mp4"
+            aria-label="Play video 1">
+            <video class="thumb-video" src="assets/video-01.mp4" muted playsinline preload="metadata"></video>
+            <span class="visual-index">01 / VIDEO</span><span class="visual-play">▶</span>
+            <div class="visual-title">VIDEO<br><i>PROJECT 01</i></div>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Video Project 01</h3>
+              <p>VIDEO EDITING · COLOR GRADING</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+        <article class="project-card reveal" data-category="video">
+          <button class="project-visual video-thumb visual-two" type="button" data-video="assets/video-02.mp4"
+            aria-label="Play video 2">
+            <video class="thumb-video" src="assets/video-02.mp4" muted playsinline preload="metadata"></video>
+            <span class="visual-index">02 / VIDEO</span><span class="visual-play">▶</span>
+            <div class="visual-title compact">VIDEO<br><i>PROJECT 02</i></div>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Video Project 02</h3>
+              <p>EDITING · SOUND DESIGN</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="video">
+          <button class="project-visual video-thumb visual-three" type="button" data-video="assets/video-03.mp4"
+            aria-label="Play video 3">
+            <video class="thumb-video" src="assets/video-03.mp4" muted playsinline preload="metadata"></video>
+            <span class="visual-index">03 / VIDEO</span><span class="visual-play">▶</span>
+            <div class="visual-title compact">VIDEO<br><i>PROJECT 03</i></div>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Video Project 03</h3>
+              <p>VIDEO EDITING · VISUAL STORYTELLING</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="video">
+          <button class="project-visual video-thumb visual-three" type="button" data-video="assets/5.mp4"
+            aria-label="Play video 3">
+            <video class="thumb-video" src="assets/5.mp4" muted playsinline preload="metadata"></video>
+            <span class="visual-index">04 / VIDEO</span><span class="visual-play">▶</span>
+            <div class="visual-title compact">VIDEO<br><i>PROJECT 04</i></div>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Video Project 04</h3>
+              <p>VIDEO EDITING · VISUAL STORYTELLING</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="video">
+          <button class="project-visual video-thumb visual-three" type="button" data-video="assets/good-01_6.mp4"
+            aria-label="Play video 3">
+            <video class="thumb-video" src="assets/good-01_6.mp4" muted playsinline preload="metadata"></video>
+            <span class="visual-index">05 / VIDEO</span><span class="visual-play">▶</span>
+            <div class="visual-title compact">VIDEO<br><i>PROJECT 05</i></div>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Video Project 05</h3>
+              <p>VIDEO EDITING · VISUAL STORYTELLING</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="video">
+          <button class="project-visual video-thumb visual-three" type="button" data-video="assets/showcase-reel.mp4"
+            aria-label="Play video 3">
+            <video class="thumb-video" src="assets/showcase-reel.mp4" muted playsinline preload="metadata"></video>
+            <span class="visual-index">06 / VIDEO</span><span class="visual-play">▶</span>
+            <div class="visual-title compact">VIDEO<br><i>PROJECT 06</i></div>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Video Project 06</h3>
+              <p>VIDEO EDITING · VISUAL STORYTELLING</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+    <section class="work section-pad design-section" id="design">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">DESIGN PORTFOLIO</p>
+          <h2>Design <span>collection.</span></h2>
+        </div>
+        <p class="section-note">My posters and graphic design work, arranged in a clean and consistent gallery.</p>
+      </div>
+
+      <div class="project-grid design-grid">
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open design project">
+            <img src="assets/design/project-verdante.jpg" alt="Verdante brand design concept" />
+            <span class="visual-index">01 / DESIGN</span>
+            <span class="design-badge">BRAND SYSTEM</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Verdanté Brand Identity</h3>
+              <p>DESIGN · PACKAGING · BRANDING</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open design project">
+            <img src="assets/design/project-memoria-frames.jpg" alt="Memoria poster design" />
+            <span class="visual-index">02 / DESIGN</span>
+            <span class="design-badge">POSTER</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Memoria Frames</h3>
+              <p>DESIGN · TYPOGRAPHY · PRINT</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open design project">
+            <img src="assets/design/project-spark-foodpackets.jpg" alt="Spark food packets design" />
+            <span class="visual-index">03 / DESIGN</span>
+            <span class="design-badge">FOOD PACK</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Spark Food Packets</h3>
+              <p>DESIGN · PACKAGING · FOOD BRAND</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open design project">
+            <img src="assets/design/project-political-king.jpg" alt="Political king poster design" />
+            <span class="visual-index">04 / DESIGN</span>
+            <span class="design-badge">POSTER</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Political King</h3>
+              <p>DESIGN · SOCIAL VISUAL · PRINT</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open design project">
+            <img src="assets/design/project-chill-ride.jpg" alt="Chill ride poster design" />
+            <span class="visual-index">05 / DESIGN</span>
+            <span class="design-badge">CAMPAIGN</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Chill Ride</h3>
+              <p>DESIGN · CAMPAIGN · BRANDING</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open Spark Burger design">
+            <img src="assets/design/project-spark-burger.jpg" alt="Spark Burger food campaign design" />
+            <span class="visual-index">06 / DESIGN</span>
+            <span class="design-badge">FOOD CAMPAIGN</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Spark Burger</h3>
+              <p>DESIGN · FOOD · SOCIAL VISUAL</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open Spark Drinks design">
+            <img src="assets/design/project-spark-drinks.jpg" alt="Spark Drinks campaign design" />
+            <span class="visual-index">07 / DESIGN</span>
+            <span class="design-badge">PRODUCT CAMPAIGN</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Spark Drinks</h3>
+              <p>DESIGN · PRODUCT · ADVERTISING</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open Mango Juice design">
+            <img src="assets/design/project-mango-juice.jpg" alt="Mango Juice product design" />
+            <span class="visual-index">08 / DESIGN</span>
+            <span class="design-badge">PRODUCT VISUAL</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Mango Juice</h3>
+              <p>DESIGN · PRODUCT · PACKAGING</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open Spark Christmas design">
+            <img src="assets/design/project-spark-christmas.jpg" alt="Spark Christmas campaign design" />
+            <span class="visual-index">09 / DESIGN</span>
+            <span class="design-badge">SEASONAL CAMPAIGN</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Spark Christmas</h3>
+              <p>DESIGN · SEASONAL · CAMPAIGN</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open Poya Special design">
+            <img src="assets/design/project-poya-special.jpg" alt="Poya Special poster design" />
+            <span class="visual-index">10 / DESIGN</span>
+            <span class="design-badge">PROMOTIONAL POSTER</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Poya Special</h3>
+              <p>DESIGN · POSTER · PROMOTION</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open Moon Art design">
+            <img src="assets/design/project-moon-art.jpg" alt="Moon Art poster design" />
+            <span class="visual-index">11 / DESIGN</span>
+            <span class="design-badge">ART POSTER</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Moon Art</h3>
+              <p>DESIGN · ART DIRECTION · POSTER</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open Photography Promo design">
+            <img src="assets/design/project-photography-promo.jpg" alt="Photography promotional design" />
+            <span class="visual-index">12 / DESIGN</span>
+            <span class="design-badge">PROMOTIONAL POSTER</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Photography Promo</h3>
+              <p>DESIGN · PHOTOGRAPHY · PROMOTION</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open Wesak Photography design">
+            <img src="assets/design/project-wesak-photography.jpg" alt="Wesak photography campaign design" />
+            <span class="visual-index">13 / DESIGN</span>
+            <span class="design-badge">PHOTO CAMPAIGN</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Wesak Photography</h3>
+              <p>DESIGN · PHOTOGRAPHY · CAMPAIGN</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="design">
+          <button class="project-visual design-thumb" type="button" aria-label="Open Spark Industry logo design">
+            <img src="assets/design/logo-spark-industry.jpg" alt="Spark Industry logo design" />
+            <span class="visual-index">14 / DESIGN</span>
+            <span class="design-badge">LOGO DESIGN</span>
+          </button>
+          <div class="project-meta">
+            <div>
+              <h3>Spark Industry Logo</h3>
+              <p>DESIGN · LOGO · BRAND IDENTITY</p>
+            </div><span>2026</span>
+          </div>
+        </article>
+
+
+
+      </div>
+    </section>
+
+    <section class="manifesto section-pad">
+      <p class="eyebrow reveal">THE APPROACH</p>
+      <h2 class="reveal">Good visuals catch attention.<br><span>Great visuals make it stay.</span></h2>
+      <div class="manifesto-bottom reveal"><span>THOUGHTFUL FRAMES. PURPOSEFUL EDITS.</span><span>✳</span></div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Behind the<br><span>frames.</span></h2>
+        </div>
+        <p class="section-note">Creative thinking, technical craft, and an eye for the details that make a visual feel
+          right.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="large-copy">I'm a visual creator focused on turning ideas into <span>memorable digital
+              experiences.</span></p>
+          <p>I work across video editing, color, motion, and graphic design. My goal is simple: make every frame feel
+            intentional and every project tell a story.</p>
+          <a class="text-link" href="#contact">HAVE A PROJECT IN MIND? <span>↗</span></a>
+        </div>
+        <div class="skills-panel reveal">
+          <div class="skills-head"><span>TOOLS OF THE TRADE</span><span>01—07</span></div>
+          <div class="skill"><span>01</span><b>Graphic Design</b><i>&amp; VIDEO EDITING</i></div>
+          <div class="skill"><span>02</span><b>Adobe Premiere Pro</b><i>&amp; AFTER EFFECTS</i></div>
+          <div class="skill"><span>03</span><b>Photoshop</b><i>&amp; ILLUSTRATOR</i></div>
+          <div class="skill"><span>04</span><b>Blender</b><i>&amp; 3DS MAX</i></div>
+          <div class="skill"><span>05</span><b>Web Development</b><i>&amp; BACKEND</i></div>
+          <div class="skill"><span>06</span><b>WordPress</b><i>&amp; WOOCOMMERCE</i></div>
+          <div class="skill"><span>07</span><b>AI Tools</b><i>&amp; AUTOMATION</i></div>
+          <p class="skills-note">Creative systems, visual production, and digital tools tailored for modern brands.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="software section-pad" id="software">
+      <div class="section-heading reveal">
+        <div class="software-heading-wrap">
+          <p class="eyebrow">TOOLS I USE</p>
+          <h2><span class="software-icon" aria-hidden="true">◫</span> Software</h2>
+        </div>
+      </div>
+      <div class="software-grid reveal">
+        <span class="software-item"><img class="software-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">Adobe Photoshop</span>
+        <span class="software-item"><img class="software-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">Adobe After Effects</span>
+        <span class="software-item"><img class="software-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">Adobe Premiere Pro</span>
+        <span class="software-item"><img class="software-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">Adobe Illustrator</span>
+        <span class="software-item"><img class="software-logo software-logo-light" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Capcut-icon.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">CapCut</span>
+        <span class="software-item"><img class="software-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">Blender</span>
+        <span class="software-item"><img class="software-logo software-logo-wide software-logo-light" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Autodesk_3ds_Max_Logo.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">Autodesk 3ds Max</span>
+        <span class="software-item"><img class="software-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">Visual Studio Code</span>
+        <span class="software-item"><img class="software-logo software-logo-light" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftoffice.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">Microsoft Office</span>
+      </div>
+    </section>
+
+    <section class="reviews section-pad" id="reviews">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">CLIENT FEEDBACK</p><h2>Kind <span>words.</span></h2></div>
+      </div>
+
+      <div class="reviews-grid reveal">
+        <article class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">
+              <img src="assets/images/chami.png" alt="Chamiyavideoeditor0305" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="review-avatar-fallback">C</span>
+            </div>
+            <div class="review-meta">
+              <h3>Chamiyavideoeditor0305</h3>
+              <a href="mailto:Chamiyavideoeditor0305@gmail.com">Chamiyavideoeditor0305@gmail.com</a>
+            </div>
+          </div>
+          <p class="review-text">“Working with Chamika has been an excellent experience from start to finish. Their team is highly professional, creative, and truly understands how to deliver effective digital marketing solutions that produce real results. Communication was always smooth and responsive. They kept us informed throughout every stage of the project, met every deadline, and consistently exceeded our expectations with the quality of their work. From social media management and advertising to creative content and branding, Chamika demonstrated expertise, attention to detail, and a genuine commitment to helping our business grow. I highly recommend Chamika to anyone looking for a reliable, results-driven digital marketing partner. Their professionalism, creativity, and dedication make them an easy 5/5 recommendation.”</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">
+              <img src="assets/images/onel.png" alt="onelsamuel@gmail.com" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="review-avatar-fallback">O</span>
+            </div>
+            <div class="review-meta">
+              <h3>onelsamuel@gmail.com</h3>
+              <a href="mailto:onelsamuel@gmail.com">onelsamuel@gmail.com</a>
+            </div>
+          </div>
+          <p class="review-text">“Choosing Chamika for our graphic design needs was one of the best decisions we made. Their team took the time to understand our brand identity and delivered designs that perfectly matched our vision. The quality of their graphic design work was exceptional, from eye-catching social media creatives to professional branding materials. Every design was creative, modern, and visually appealing. Their communication was smooth, and they always delivered projects on time. What impressed us most was their attention to detail and commitment to creating designs that truly stand out. They genuinely care about their clients and always go the extra mile to ensure complete satisfaction. If you're looking for a reliable, creative, and professional graphic design service, I highly recommend Chamika. They exceeded our expectations and truly deserve a 5 star rating.”</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">
+              <img src="assets/images/649163752_122288673830200701_1361578660334598830_n.jpg" alt="Hirusha Dayarathna" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="review-avatar-fallback">H</span>
+            </div>
+            <div class="review-meta">
+              <h3>Hirusha Dayarathna</h3>
+              <a href="mailto:geekhirusha@gmail.com">geekhirusha@gmail.com</a>
+            </div>
+          </div>
+          <p class="review-text">“Working with Chamika on our recent video project was a great experience. Their team perfectly understood the technical brief and delivered a final product that exceeded our expectations. The pacing, editing quality, and overall production were exceptional. Communication was smooth throughout the project, and everything was delivered on time. Highly recommended by our team!”</p>
+          <p class="review-role">Hirusha Dayarathna<br>Co-founder, KreedX Developer Club</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">
+              <img src="assets/images/spark ress.jpg" alt="Spark Restaurant Management Team" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="review-avatar-fallback">S</span>
+            </div>
+            <div class="review-meta">
+              <h3>Management Team</h3>
+              <span>Spark Restaurant</span>
+            </div>
+          </div>
+          <p class="review-text">“Working with Chamika on the branding and promotional designs for Spark Restaurant was an outstanding experience. From the very beginning, their team understood our vision and created modern, eye catching designs that perfectly reflected our brand identity. Every design was creative, professional, and delivered with exceptional attention to detail. Whether it was our promotional posters, social media creatives, or restaurant branding materials, the quality consistently exceeded our expectations. Communication was excellent, revisions were handled quickly, and every project was delivered on schedule. We highly recommend Chamika to any business looking for high quality graphic design and creative marketing solutions. Their professionalism, creativity, and commitment to excellence truly make them a trusted partner. A well deserved 5 star recommendation.”</p>
+          <p class="review-role">Spark Restaurant<br>Management Team</p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">
+              <img src="assets/images/image.png" alt="Don Kavin" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <span class="review-avatar-fallback">D</span>
+            </div>
+            <div class="review-meta">
+              <h3>Don Kavin</h3>
+              <span>Spark Industry, United Kingdom</span>
+              <a href="mailto:donkavinp@gmail.com">donkavinp@gmail.com</a>
+            </div>
+          </div>
+          <p class="review-text">“We had the pleasure of working with Chamika for the logo design of Spark Industry, and the experience exceeded our expectations. From the initial concept to the final delivery, their team demonstrated outstanding creativity, professionalism, and attention to detail. They took the time to understand our company's vision and transformed it into a modern, memorable logo that perfectly represents our brand. The design is clean, unique, and has received excellent feedback from both our team and our clients. Communication throughout the project was smooth, revisions were handled quickly, and the final files were delivered in a professional format ready for both digital and print use. We highly recommend Chamika to anyone looking for high quality branding and logo design services. Their creativity and commitment to excellence truly make them a trusted design partner.”</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-top reveal">
+        <p class="eyebrow">HAVE A GOOD ONE IN MIND?</p><span>LET'S MAKE IT REAL.</span>
+      </div>
+      <h2 class="reveal">LET'S MAKE<br><em>SOMETHING</em><br>MATTER.</h2>
+      <div class="reveal" style="display:flex; flex-direction:column; gap:12px; margin-bottom:26px;">
+        <a class="contact-button" href="mailto:heshanchamika96@gmail.com">EMAIL: heshanchamika96@gmail.com <span>↗</span></a>
+        <a class="contact-button" href="https://wa.me/94789695174?text=Hi%20Hesh%2C%20I%20need%20a%20video%2Fediting%20project" target="_blank" rel="noopener noreferrer">WHATSAPP: 0789695174 <span>↗</span></a>
+        <a class="contact-button" href="assets/hesh.pdf" download="hesh_cv.pdf">DOWNLOAD CV <span>↗</span></a>
+      </div>
+      
+    </section>
+  </main>
+
+  <div class="video-modal" id="videoModal" aria-hidden="true" role="dialog" aria-label="Video player">
+    <button class="video-modal-close" type="button" aria-label="Close video">×</button>
+    <video id="modalVideo" controls playsinline></video>
+  </div>
+  <footer class="site-footer"><a class="wordmark" href="#home">HESH<span> VISUALS</span><i>.</i></a><span>CHAMIKA HESHAN © <span id="year">2026</span></span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
